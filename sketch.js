@@ -1,6 +1,6 @@
 var p1;
-var xspeed = 1;
-var yspeed = 1;
+var xspeed = 6;
+var yspeed = 6;
 
 function setup() {
 	createCanvas(400, 400);
@@ -15,12 +15,16 @@ function draw() {
 	b.show();
 	b.move();
 	b.edges();
+	if (b.intersects(p1)) {
+		xspeed = xspeed * -1;
+		yspeed = yspeed * -1;
+	}
 }
 
 function keyPressed() {
-	if (keyCode === UP_ARROW) {
+	if (keyCode === 87) {
 		p1.setDir(-1);
-	} else if (keyCode === DOWN_ARROW) {
+	} else if (keyCode === 83) {
 		p1.setDir(1);
 	}
 }
