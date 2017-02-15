@@ -18,12 +18,12 @@ function draw() {
 	b.move();
 	b.edges();
 	if (b.hit(p1)) {
-		b.xspeed = b.xspeed * -1;
-		b.yspeed = b.yspeed * -1;
+		b.xspeed *= -1;
+		b.yspeed *= 1;
 	}
 	if (b.hit(p2)) {
-		b.xspeed = b.xspeed * -1;
-		b.yspeed = b.yspeed * -1;
+		b.xspeed *= -1;
+		b.yspeed *= 1;
 	}
 }
 

@@ -1,5 +1,5 @@
 function paddle1() {
-	this.x = 10;
+	this.x = 5;
 	this.y = 100;
 	this.w = 12;
 	this.h = 64;
