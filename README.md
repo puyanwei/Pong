@@ -1,6 +1,6 @@
 Pong!
 
-Attempt at making Pong in JavaScript using the P5.js library. Not quite finished yet!
+Attempt at making Pong in JavaScript using the P5.js library after 1.5 months of learning to code. Not quite finished yet!
 Use the 'W' and 'S' for player 1 and Up and Down arrows for player 2.
 Try it here: https://pyan83.github.io/Pong/
 
